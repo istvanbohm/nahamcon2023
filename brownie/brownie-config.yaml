@@ -1,0 +1,8 @@
+compiler:
+  solc:
+    optimizer:
+      enabled: true
+      runs: 400
+    remappings:
+      - "@openzeppelin=./node_modules/@openzeppelin"
+

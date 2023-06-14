@@ -1,0 +1,28 @@
+{
+  "name": "vulnerabledapps",
+  "version": "1.0.0",
+  "description": "Hacktivity Solidity CTF Games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Istvan Bohm",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.8",
+    "hardhat-gas-reporter": "^1.0.4",
+    "webpack": "4.44.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0-rc.1",
+    "@openzeppelin/hardhat-upgrades": "^1.9.0",
+    "hardhat-spdx-license-identifier": "^2.0.3",
+    "web3": "^1.6.0"
+  }
+}
