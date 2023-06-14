@@ -1,6 +1,6 @@
 # NahamCon 2023 - Ethereum  Smart Contract Hacking Workshop
 
-## 1 Preparations
+## 1 Preparation
 
 [Setting up ZIION](https://github.com/istvanbohm/nahamcon2023/blob/main/01_ziion.md) or [installing tools manually on Ubuntu](https://github.com/istvanbohm/nahamcon2023/blob/main/01_manual_install.md)
 
@@ -12,9 +12,9 @@
 ```
 git clone https://github.com/istvanbohm/nahamcon2023.git
 ```
-- Enter ther brownie direcotry
+- Enter the brownie directory
 ```
-cd NahamCon2023/brownie/
+cd nahamcon2023/brownie/
 ```
 - Install the required NPM packages by executing the following command from the brownie directory
 ```
@@ -23,7 +23,7 @@ npm install
 
 ## 3 Simulate the Ethereum blockchain locally
 
-Simulate the blockchain locally using ganache, to start execute the following command:
+Simulate the blockchain locally using ganache, to start executing the following command:
 
 ```
 ganache-cli --hardfork istanbul --fork https://mainnet.infura.io/v3/<INFURA_KEY> -i 80000000
@@ -37,7 +37,7 @@ After running ganache, wait for the "RPC Listening on 127.0.0.1:8545" message, t
 brownie console --network mainnet-fork
 ```
 
-## 4 Get Familar with Brownie and how to interact with the smart contract
+## 4 Get familiar with Brownie and how to interact with the smart contract
 
 - The scripts folder contains example brownie scripts.
 - Paste scripts section by section and examine the behavior of the contracts.
