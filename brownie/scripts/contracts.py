@@ -90,7 +90,7 @@ contract_MockNft.transferFrom(user2, user4, nft_id, {'from': user3})
 
 ############# Using Tokens From MAINNET #############
 
-# Get these addresses from Etherscan: https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code
+# Get these data from Etherscan: https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code
 ADDR_WETH = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
 NAME_WETH = "WETH9"
 ADDR_WETH_WHALE = "0xf04a5cc80b1e94c69b48f5ee68a08cd2f09a7c3e"
@@ -105,7 +105,7 @@ contract_WETH.decimals()	# 18, which means 10**18 tokens = 1 WETH
 contract_WETH.transfer(user1, 100 * 10**18,{'from': ADDR_WETH_WHALE})
 
 
-# Get these address from Etherscan: https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d#code
+# Get these data from Etherscan: https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d#code
 ADDR_BYAC = "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
 NAME_BYAC = "BoredApeYachtClub"
 
