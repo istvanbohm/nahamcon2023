@@ -1,7 +1,7 @@
 {
   "name": "vulnerabledapps",
   "version": "1.0.0",
-  "description": "Hacktivity Solidity CTF Games",
+  "description": "NahamCon2023 Solidity CTF Games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
